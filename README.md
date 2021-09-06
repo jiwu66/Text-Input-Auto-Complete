@@ -13,6 +13,48 @@
 This project implement the text input auto-complete function in C++.\
 The system stores the inputs of the user in a **trie** data structure. When the user enters a prefix, the system returns all history input with the same prefix.
 
+**The following functions are implemented fot the user to use:**
+
+**insert**\
+description: Insert a word into the trie\
+parameters: w: string\
+return: "success"
+
+**erase**\
+description: Delete a word from the trie\
+parameters: w: string\
+return: "failure" if w is not found in the trie, else "success"
+
+**search**\
+description: Search if a word existz in the trie.\
+parameters: w: string\
+return: "found" if w found, else "not found"
+
+**print**\
+description: Print all word in the trie\
+parameters: \
+return:
+
+**autocomplete**\
+description: Print all word with the prefix entered\
+parameters: prefix: string
+return: 
+
+**empty**\
+description: determine if the trie is empty\
+parameters: \
+return: true if empty, else false
+
+**clear**\
+description: clear the trie\
+parameters:\
+return: 
+
+**size**
+description: count the number of words in the trie\
+parameters:\
+return: 
+
 ## Design Document
 
 ### Summary
